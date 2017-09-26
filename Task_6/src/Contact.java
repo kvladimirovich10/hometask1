@@ -1,0 +1,1 @@
+public class Contact {    String name;    String lastname;    String phoneNumber;    String email;    Contact() {}    Contact(String name,            String lastname,            String phoneNumber,            String email) {        this.name = name;        this.lastname = lastname;        this.phoneNumber = phoneNumber;        this.email = email;    }}
