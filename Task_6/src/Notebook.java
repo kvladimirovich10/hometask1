@@ -1,1 +1,1 @@
-import java.util.ArrayList;import java.util.List;public class Notebook {    List<Note> notes = new ArrayList<>();    String notebookName;    public Notebook(String notebookName) {        this.notebookName = notebookName;    }}
+import java.util.ArrayList;import java.util.List;public class Notebook {    private List<Note> notes = new ArrayList<>();    private String notebookName;    public Notebook(String notebookName) {        this.notebookName = notebookName;    }    public List<Note> getNotes() {        return notes;    }}
